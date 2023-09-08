@@ -25,8 +25,12 @@ int main()
     cout << "===Program Started===" << endl;
     vector<int> arr = {10, 5, 2, 3, -6, 9, 11};
     int S = 4;
-
     auto p = pairSum(arr, S);
+    
+    //printing p
+    for(int i=0;i<p.size();i++){
+        cout<<p[i]<<endl;
+    }
 
     if (p.size() == 0)
     {
