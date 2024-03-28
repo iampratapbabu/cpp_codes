@@ -178,7 +178,6 @@ int main()
 
     cout<<isBST3(root)<<endl;
 
-
     delete root;
     return 0;
 }
